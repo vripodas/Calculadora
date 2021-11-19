@@ -1,0 +1,47 @@
+body {
+    background-color: grey;
+}
+h1 {
+    color: rgb(255, 255, 255);
+    background-color: rgba(40, 148, 180, 0.7);
+    font-size: 40px;
+}
+h2 {
+    color:white;
+}
+.inputs {
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+.btn {
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    font-size: 15px;
+    background-color: white;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgb(28, 146, 140);
+    color: white;
+}
+.btnBorrar {
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    font-size: 15px;
+    background-color: rgb(177, 96, 96);
+    color: white;
+    cursor: pointer;
+}
+.contenedor {
+    border: 1px solid white;
+    width: 600px;
+    padding: 5px;
+}
+
+.error {
+    background-color: rgb(173, 117, 117);
+    color: white;
+}
